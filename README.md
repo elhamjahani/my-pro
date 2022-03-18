@@ -1,9 +1,9 @@
 # my-pro
 for resolving a problem, always there is a way.
 
-Task 1
+## Task 1
 
-Solution 1
+### Solution 1
 in this solution I want to write one line of commands (you can find it in Task1/solution1.sh)
 I use 2 command:
 1- seq  -> which print a sequence of numbers in my range
