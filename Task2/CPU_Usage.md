@@ -29,7 +29,7 @@ crontab -e
 * * * * *  date >> /tmp/mpstat_history.txt && mpstat | tail -n2 >> /tmp/mpstat_history.txt && echo "________________________________________" >> /tmp/mpstat_history.txt
 ```
 
-also you can see the history of Cpu usage by sar/atop command (if these tools were installed and configure)
+also you can see the history of Cpu usage by sar/atop command (if these tools were installed and configured)
 
-But if you use zabbix monitoring tools, you just need to create host and assign linux OS template (which is the default template of zabbix) to server and its done!
+But if you use zabbix monitoring tool, you just need to create host and assign linux OS template (which is the default template of zabbix) to server and its done!
 
