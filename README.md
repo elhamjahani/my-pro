@@ -14,13 +14,14 @@ I use 2 command:
 
 So I create a range of 1 to 10 and print in random order by shuf command.
 
-for running script you can download script (or copy content in a new file) and run script:
+for running script you can download script and run script:
 ```
+cd PATH_OF_FILE
 bash solution1.sh
 ```
 Or copy the content to new file and add excexution permission to file and run it:
 ```
-cd SCRIPT_PATH
+cd YOUR_PATH
 touch solution1.sh
 vim solution1.sh #write script in this file
 chmod +x solution1.sh
@@ -40,7 +41,23 @@ So with this feature we can generate 10 random number (by for loop) and print "R
 22975 4
 ...
 ```
-after that we sort these lines based on random numbers. so if numbers sort base on random numbers, 1-10 numbers are falling apart and messed up. (by sort command)
+after that we sort these lines based on random numbers. so if numbers sort base on random numbers, 1-10 numbers are falling apart and messed up. (by "sort" command)
 
-finally we just print the 1-10 numbers which are second colomn (in above example) by cut command and delimiter of ' ' (space).
+finally we just print the 1-10 numbers which are second colomn (in above example) by cut command and delimiter of space (by -d" ") and specify the second field by -f2 option.
+
+eventually we have numbers from 1 - 10 in random order.
+
+for running the task we can download file solution2.sh and move it to your server (and path PATH)
+```
+cd PATH_OF_FILE
+bash solution2.sh
+```
+Or copy the content to new file and add excexution permission to file and run it:
+```
+cd YOUR_PATH
+touch solution2.sh
+vim solution2.sh #write script in this file
+chmod +x solution2.sh
+./solution2.sh
+```
 
