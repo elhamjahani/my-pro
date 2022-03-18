@@ -1,12 +1,13 @@
 # Memory
+
 In operating System we have some commands for checking memory usage.
 for example:
+
 ```
 bash> free -m
               total        used        free      shared  buff/cache   available
 Mem:          15870        8704         809        2580        6356        4336
 Swap:          2047         323        1724
-
 ```
 ```
 bash> cat /proc/meminfo
