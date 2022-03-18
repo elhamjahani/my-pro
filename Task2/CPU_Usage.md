@@ -13,14 +13,14 @@ Linux 5.11.0-49-generic (ejahani) 	03/18/2022 	_x86_64_	(12 CPU)
 ```
 If you dont have mpstat command visit page: <https://command-not-found.com/mpstat>
 
-if you want to monitor this server on command line you can use above commands but if you want to send the result to another monitoring tools you can use the script in Task2/Scripts/cpu_usage.sh .
+if you want to monitor this server on command line you can use above commands but if you want to send the result to another monitoring tools you can use the script in Task2/Scripts/CPU_Usage.sh
 
 In this script you can enter one of {usr ,nice ,sys ,iowait ,irq ,soft ,steal ,guest ,gnice and idle } after script name and see the percentage of cpu usage for each item.
 
-Copy file Task2/Scripts/cpu_usage.sh to your server and :
+Copy file Task2/Scripts/CPU_Usage.sh to your server and :
 ```
 cd SCRIPT_PATH
-bash ./cpu_usage.sh idle
+bash ./CPU_Usage.sh idle
 ```
 Also you can put below line in crontab to have a history of these informations:
 
