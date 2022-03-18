@@ -32,4 +32,4 @@ crontab -e
 also you can see the history of Cpu usage by sar/atop command (if these tools were installed and configured)
 
 But if you use zabbix monitoring tool, you just need to create host and assign linux OS template (which is the default template of zabbix) to server and its done!
-
+<https://www.zabbix.com/documentation/current/en/manual/config/hosts/host#configuration>
