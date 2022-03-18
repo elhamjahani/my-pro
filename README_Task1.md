@@ -45,6 +45,13 @@ After that we sort these lines based on random numbers. so if numbers sort base 
 
 Finally we just print the 1-10 numbers which are second colomn (in above example) by cut command and delimiter of space (by -d" ") and specify the second field by -f2 option.
 
+Command "cut" options:
+     
+options  | Description
+------------- | -------------
+-d  | For specify delimiter
+-f  | For Specify column/field
+
 Eventually we have numbers from 1 - 10 in random order.
 
 For running the script we can download file solution2.sh and move it to your server (and path PATH)
