@@ -23,7 +23,7 @@ Also you can put below line in crontab to have a history of these informations:
 
 ```
 crontab -e
-* * * * *  date >> /tmp/mpstat_history.txt && top -b -n 1 | head -n1 | awk '{print $10,$11,$12,$13,$14}' >> /tmp/mpstat_history.txt && echo "________________________________________" >> /tmp/mpstat_history.txt
+* * * * *  date >> /tmp/mpstat_history.txt && top -b -n 1 | head -n1 | awk '{print $10,$11,$12,$13,$14}' >> /tmp/mpstat_history.txt && echo "________________________________________" >> /tmp/LAVG_history.txt
 ```
 
 But if you use zabbix monitoring tool, you just need to create host and assign linux OS template (which is the default template of zabbix) to server and its done!

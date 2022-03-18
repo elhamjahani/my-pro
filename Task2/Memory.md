@@ -33,10 +33,10 @@ Also you can put below line in crontab to have a history of these informations:
 
 ```
 crontab -e
-* * * * *  date >> /tmp/mpstat_history.txt && free -m >> /tmp/mpstat_history.txt && echo "________________________________________" >> /tmp/mpstat_history.txt
+* * * * *  date >> /tmp/mpstat_history.txt && free -m >> /tmp/mpstat_history.txt && echo "________________________________________" >> /tmp/memory_history.txt
 ```
 
-also you can see the history of Cpu usage by sar/atop command (if these tools were installed and configured)
+also you can see the history of Memory usage by sar/atop command (if these tools were installed and configured)
 
 But if you use zabbix monitoring tool, you just need to create host and assign linux OS template (which is the default template of zabbix) to server and its done!
 <https://www.zabbix.com/documentation/current/en/manual/config/hosts/host#configuration>
