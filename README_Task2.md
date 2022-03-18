@@ -11,6 +11,10 @@ For server which do ssl offloading and proxy we should monitor below items:
   <summary>CPU Usage</summary>
   <p>SSL ofloading and handling connections are cpu sensitive</p>
 </details>
+<details>
+  <summary>Load AVG (1m ,5m, 15m)</summary>
+  <p>How Busy is server</p>
+</details>
 
 
 * CPU Usage					SSL ofloading and handling connections are cpu sensitive
