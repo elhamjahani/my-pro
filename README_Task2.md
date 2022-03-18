@@ -7,6 +7,12 @@ in this case I try to define the OS side Commands and ways to monitor and how we
 ### Solution
 For server which do ssl offloading and proxy we should monitor below items:
 
+<details>
+  <summary>CPU Usage</summary>
+  <p>SSL ofloading and handling connections are cpu sensitive</p>
+</details>
+
+
 * CPU Usage					SSL ofloading and handling connections are cpu sensitive
 * Load AVG (1m ,5m, 15m)			How Busy is server
 * Memory					always be usefull to monitor memory
