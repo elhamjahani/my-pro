@@ -31,7 +31,7 @@ chmod +x solution1.sh
 ```
 
 #### Known limitations / bugs
-if the OS has not the shuf or seq command you can use below link to install it:
+If the OS has not the shuf or seq command you can use below link to install it:
 
 <https://command-not-found.com/shuf>
 
@@ -81,3 +81,4 @@ chmod +x solution2.sh
 ```
 
 #### Known limitations / bugs
+The probability of duplication of random numbers is very, very low, but the first solution is more certain.
