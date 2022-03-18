@@ -29,7 +29,7 @@ chmod +x solution1.sh
 ```
 
 ### Solution 2
-in this solution I want to use one of the OS's environment variables called "$RANDOM".
+in this solution I want to use one of the OS's environment variables called "$RANDOM". (you can find it in Task1/solution2.sh)
 
 RANDOM is a shell variable that is used to generate random integers in Linux. It is an internal bash command that returns a pseudo-random 16-bit integer in the range 0 – 32767. It returns a different integer at each invocation.
 
@@ -47,7 +47,7 @@ finally we just print the 1-10 numbers which are second colomn (in above example
 
 eventually we have numbers from 1 - 10 in random order.
 
-for running the task we can download file solution2.sh and move it to your server (and path PATH)
+for running the script we can download file solution2.sh and move it to your server (and path PATH)
 ```
 cd PATH_OF_FILE
 bash solution2.sh
