@@ -12,7 +12,7 @@ bash> uptime | cut -d, -f 4,5,6
 
 if you want to monitor this server on command line you can use above commands but if you want to send the result to another monitoring tools ,you can use the script in Task2/Scripts/Load_AVG.sh 
 
-In this script you can enter one of {1m, 5m, 15m} after script name and see the percentage of cpu usage for each item.
+In this script you can enter one of {1m, 5m, 15m} after script name and see the Load AVG.
 
 Copy file Task2/Scripts/Load_AVG.sh to your server and :
 ```
