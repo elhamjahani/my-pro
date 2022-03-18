@@ -34,6 +34,7 @@ chmod +x solution1.sh
 if the OS has not the shuf or seq command you can use below link to install it:
 
 <https://command-not-found.com/shuf>
+
 <https://command-not-found.com/seq>
 
 ### Solution 2
