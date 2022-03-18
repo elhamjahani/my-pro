@@ -15,18 +15,38 @@ For server which do ssl offloading and proxy we should monitor below items:
   <summary>Load AVG (1m ,5m, 15m)</summary>
   <p>How Busy is server</p>
 </details>
-
-
-* CPU Usage					SSL ofloading and handling connections are cpu sensitive
-* Load AVG (1m ,5m, 15m)			How Busy is server
-* Memory					always be usefull to monitor memory
-* Network Traffic (incoming and outgoing)	for traffic and load monitoring
-* Network Card Bandwith				because of the limitation of bandwith (2 * 10G)
-* TCP Connections status			Connections of Proxy Monitoring (TIME_WAIT and ...)
-* Disk Space					for data
-* Disk IO					Encryption/Decryption 
-* Number of FD	 				number of File Descriptors
-* If we use applications for ssl offloading like haproxy or ... we should monitor this application.
+<details>
+  <summary>Memory</summary>
+  <p>Always be usefull to monitor memory</p>
+</details>
+<details>
+  <summary>Network Traffic (incoming and outgoing)</summary>
+  <p>For traffic and load monitoring</p>
+</details>
+<details>
+  <summary>Network Card Bandwith</summary>
+  <p>Because of the limitation of bandwith (2 * 10G)</p>
+</details>
+<details>
+  <summary>TCP Connections status</summary>
+  <p>Connections of Proxy Monitoring (TIME_WAIT and ...)</p>
+</details>
+<details>
+  <summary>Disk Space</summary>
+  <p>For data</p>
+</details>
+<details>
+  <summary>Disk IO</summary>
+  <p>Encryption/Decryption</p>
+</details>
+<details>
+  <summary>Number of FD</summary>
+  <p>Number of File Descriptors</p>
+</details>
+<details>
+  <summary>SSL Offloading Tool</summary>
+  <p>If we use applications for ssl offloading like haproxy or ... we should monitor this application.</p>
+</details>
 
 For the convenience of the documents, a separate file has been created in the folder Task2 for each of the above items.
 
