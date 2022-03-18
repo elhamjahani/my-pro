@@ -6,7 +6,7 @@ bash> top -b -n 1 | head -n1 | awk '{print $10,$11,$12,$13,$14}'
 load average: 1.86, 2.13, 2.16
 ```
 ```
-uptime | cut -d, -f 4,5,6
+bash> uptime | cut -d, -f 4,5,6
   load average: 2.34, 2.23, 2.19
 ```
 

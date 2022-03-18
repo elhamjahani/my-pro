@@ -6,7 +6,7 @@ bash> top -b -n 1 | grep Cpu
 %Cpu(s):  9.6 us,  4.6 sy,  0.0 ni, 85.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
 ```
 ```
-mpstat
+bash> mpstat
 Linux 5.11.0-49-generic (ejahani) 	03/18/2022 	_x86_64_	(12 CPU)
 11:17:35 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
 11:17:35 PM  all   24.99    0.02    7.55    0.04    0.00    0.16    0.00    0.00    0.00   67.24
