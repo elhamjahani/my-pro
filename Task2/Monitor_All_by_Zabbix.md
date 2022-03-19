@@ -46,7 +46,12 @@ Then you need to define items in zabbix GUI (also you can create a new template 
 Go to Zabbix GUI -> Configuration -> Hosts
 * Find your Host in Hosts List
 * click on "Items" which stand in front of hostname
-* in new page click on "Create Item" in top right corner of the screen 
+* in new page click on "Create Item" Button in top right corner of the screen 
 * in New Item Page you can add your item based on "Key Name" 
 
+![image](https://user-images.githubusercontent.com/92629629/159121766-526186af-b567-430b-b77a-7234eb281871.png)
 
+
+After that click on "Add" Button.
+
+Do these steps for each item in "Task2/Scripts/TCP_Connections.conf" file. finally you can create graph for these items.
