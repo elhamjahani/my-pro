@@ -21,15 +21,25 @@ For out Case we should have below templates for our servers:
 * Template App HaProxy by HTTPD
 
 By above templates we have graph for :
+
 1- CPU Usage
+
 2- CPU Context switches and interrupts
+
 3- CPU Utilization
+
 4- Memory
+
 5- Network Traffic per NIC
+
 6- Network Speed per NIC
+
 7- Disk IO per Partitions
+
 8- Disk utilization
+
 9- File Descriptor Item (for having graph you just need to create it because it's item is exist)
+
 10- Haproxy (Or you can monitor other ssl offloading tools if you want)
 
 
