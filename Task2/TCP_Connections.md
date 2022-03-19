@@ -42,10 +42,9 @@ Also you can put below line in crontab to have a history of these informations:
 
 ```
 crontab -e
-* * * * *  date >> /tmp/mpstat_history.txt && free -m >> /tmp/mpstat_history.txt && echo "________________________________________" >> /tmp/mpstat_history.txt
+* * * * *  date >> /tmp/tcp_history.txt && declare -a StringArray=("ESTABLISHED" "LISTEN" "TIME_WAIT" "CLOSE_WAIT" "FIN_WAIT1" "FIN_WAIT2" ) ; for i in ${StringArray[@]} ; do echo -e "$i: \t `netstat -antu | grep $i | wc -l`" ; done >> /tmp/tcp_history.txt && echo "________________________________________" >> /tmp/tcp_history.txt
 ```
 
-also you can see the history of Cpu usage by sar/atop command (if these tools were installed and configured)
 
 But if you use zabbix monitoring tool, you can use zabbix_sender in crontab (for Zabbix trapper Item) and send amount of items to zabbix server or you can add UserParameter to zabbix agent.
 
