@@ -43,4 +43,10 @@ bash> systemctl restart zabbix-agent
 
 Then you need to define items in zabbix GUI (also you can create a new template and add these items to this template to assign to any server you want ):
 
+Go to Zabbix GUI -> Configuration -> Hosts
+* Find your Host in Hosts List
+* click on "Items" which stand in front of hostname
+* in new page click on "Create Item" in top right corner of the screen 
+* in New Item Page you can add your item based on "Key Name" 
+
 
