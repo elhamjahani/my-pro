@@ -24,7 +24,7 @@ For server which do ssl offloading and proxy we should monitor below items:
   <p>For traffic and load monitoring</p>
 </details>
 <details>
-  <summary>Network Card Bandwith</summary>
+  <summary>Network Card Bandwith/Speed</summary>
   <p>Because of the limitation of bandwith (2 * 10G)</p>
 </details>
 <details>
