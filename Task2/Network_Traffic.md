@@ -32,7 +32,7 @@ Also you can put below line in crontab to have a history of these informations:
 
 ```
 crontab -e
-* * * * *  date >> /tmp/mpstat_history.txt && cat /proc/net/dev | grep NETWORK_CARD_NAME >> /tmp/mpstat_history.txt && echo "________________________________________" >> /tmp/Network_traffic.txt
+* * * * *  date >> /tmp/Network_traffic.txt && cat /proc/net/dev | grep NETWORK_CARD_NAME >> /tmp/Network_traffic.txt && echo "________________________________________" >> /tmp/Network_traffic.txt
 ```
 
 
