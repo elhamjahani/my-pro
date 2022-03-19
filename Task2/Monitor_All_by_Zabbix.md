@@ -41,6 +41,6 @@ bash> cp PATH/TCP_Connections.conf /etc/zabbix/zabbix_agentd.d/
 bash> systemctl restart zabbix-agent
 ```
 
-Then that you need to define items in zabbix GUI (also you can create a new template and add these items to this template to assign to any server you want ):
+Then you need to define items in zabbix GUI (also you can create a new template and add these items to this template to assign to any server you want ):
 
 
