@@ -47,7 +47,7 @@ Go to Zabbix GUI -> Configuration -> Hosts
 * Find your Host in Hosts List
 * click on "Items" which stand in front of hostname
 * in new page click on "Create Item" Button in top right corner of the screen 
-* in New Item Page you can add your item based on "Key Name" 
+* in New Item Page you can add your item based on "Key Name" (you can find Key names in file Task2/Scripts/TCP_Connections.conf - each line have special structure: UserParameter=<key>,<shell command>)
 
 ![image](https://user-images.githubusercontent.com/92629629/159121766-526186af-b567-430b-b77a-7234eb281871.png)
 
